@@ -1,0 +1,25 @@
+.slider1 {
+	background: url(../images/slider/slider1.png);
+	width: 990px;
+	height: 330px;
+	border-radius: 5px;	
+}
+.slider2 {
+	background: url(../images/slider/slider2.png);
+	width: 990px;
+	height: 330px;
+	border-radius: 5px;	
+}
+
+.slider3 {
+	background: url(../images/slider/slider3.png);
+	width: 990px;
+	height: 330px;
+	border-radius: 5px;	
+}
+.slider-text {
+	font-size: 22px;
+	font-style: italic;
+	font-family: Georgia;
+	color: #FFFFFF;	
+}

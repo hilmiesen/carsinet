@@ -1,0 +1,525 @@
+
+body {
+    background-color: #E9ECF0;
+    background-image: url("../images/bodyBg.png");
+    background-repeat: repeat-x;
+    font-family: Tahoma;
+    font-size: 11px;
+	overflow-x: hidden;
+}
+strong {
+    font-weight: bolder;
+}
+h1 {
+    border-bottom: 1px solid #E5E5E5;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 0 10px;
+    padding: 5px;
+}
+#wrapper {
+    background-color: #FFFFFF;
+    border-radius: 0 0 0 0;
+    box-shadow: 0 0 5px #999999;
+    margin: 0 auto;
+    width: 1010px;
+}
+#site {
+    padding: 15px 10px;
+    width: 990px;
+}
+#header {
+    height: 84px;
+    position: relative;
+}
+#header a.logo {
+    float: left;
+    padding: 10px 0;
+}
+#header .users.links {
+    color: #666666;
+    height: 18px;
+    line-height: 18px;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+#header .users.links a {
+    color: #666666;
+    margin: 0 6px;
+}
+#header .users.links a:hover {
+    color: #FF6600;
+}
+#header .users.welcome {
+    color: #335442;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 8px;
+    position: absolute;
+    right: 10px;
+}
+#header .users.welcome a {
+    border-left: 1px solid #EEEEEE;
+    color: #666666;
+    display: block;
+    float: left;
+    margin-left: 8px;
+    padding: 0 0 0 8px;
+    text-decoration: underline;
+}
+#header .users.welcome a:hover {
+    text-decoration: none;
+}
+#header .search {
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 38px;
+    width: 368px;
+}
+#header .search input[type="text"] {
+    border: 1px solid #EEEEEE;
+    border-radius: 20px 0 0 20px;
+    color: #666666;
+    float: left;
+    font-family: Tahoma;
+    font-size: 11px;
+    height: 18px;
+    padding: 6px;
+    width: 314px;
+}
+#header .search input[type="submit"] {
+    background: url("../images/searchButton.png") no-repeat scroll center center transparent;
+    border: medium none;
+    float: left;
+    height: 32px;
+    width: 40px;
+}
+#header .card {
+    background: url("../images/card.png") no-repeat scroll 13px 2px transparent;
+    border: 1px solid #EEEEEE;
+    border-radius: 14px 14px 14px 14px;
+    color: #838181;
+    height: 26px;
+    line-height: 25px;
+    padding: 2px 8px 2px 38px;
+    position: absolute;
+    right: 378px;
+    top: 38px;
+}
+#menu {
+    background: none repeat scroll 0 0 #333333;
+    border-radius: 6px 6px 6px 6px;
+    height: 40px;
+    margin: 5px 0 10px;
+    padding-left: 10px;
+}
+#menu ul li {
+    border-right: 1px solid #666666;
+    float: left;
+}
+#menu ul li a {
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 32px;
+}
+#menu ul li a:hover, #menu ul li a.active {
+    background: none repeat scroll 0 0 #666666;
+}
+#subHeader #slideshow {
+    float: left;
+    height: 305px;
+    width: 794px;
+}
+#slideshow img {
+    border-radius: 5px 0 5px 5px;
+}
+#newsBar {
+    background: none repeat scroll 0 0 #333333;
+    box-shadow: 0 0 5px #CCCCCC inset;
+    height: 34px;
+    margin: 6px 0;
+    padding: 4px;
+}
+#newsBar h2 {
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 34px;
+    padding: 0 0 0 16px;
+}
+#newsBar .news {
+    color: #FFFFFF;
+    float: left;
+    font-size: 12px;
+    line-height: 34px;
+    margin-left: 12px;
+}
+#newsBar .socaials {
+    float: right;
+    margin-right: 5px;
+}
+#newsBar .socaials a {
+    display: block;
+    float: left;
+    margin: 4px 0 0 2px;
+}
+#products {
+}
+.product {
+    border-bottom: 1px solid #EEEEEE;
+    float: left;
+    padding-bottom: 5px;
+    width: 322px;
+}
+.product .img {
+    border: 1px solid #EEEEEE;
+}
+.product a.title {
+    color: #333333;
+    display: block;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 20px;
+    padding: 4px;
+}
+.product span.desc {
+    color: #666666;
+    display: block;
+    padding: 0 4px;
+}
+.product .bottom {
+    padding-top: 6px;
+}
+.product .bottom .price {
+    color: #FF6600;
+    float: left;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 4px;
+}
+.product .bottom .buttons {
+    float: right;
+}
+a.button {
+    background: none repeat scroll 0 0 #333333;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 4px;
+    margin-top: 4px;
+    padding: 0 8px;
+}
+a.button.green {
+    background: none repeat scroll 0 0 #006699;
+}
+a.basket {
+    background-image: url("../images/green_link.png");
+    background-repeat: repeat;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 13px;
+    height: 34px;
+    line-height: 34px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+}
+#footer {
+    background: none repeat scroll 0 0 #F2F2F2;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 5px #999999;
+    height: 136px;
+    margin: 1px auto 10px;
+    width: 1012px;
+}
+#footer .logo {
+    float: left;
+    padding: 20px 0 0 10px;
+}
+#footer .center {
+    float: left;
+    padding: 20px 10px 0 0;
+    text-align: center;
+    width: 720px;
+}
+#footer .center .links {
+    margin: 10px 0;
+}
+#footer .center .links a {
+    color: #000000;
+    margin: 0 8px;
+}
+#footer .center .copyright {
+    padding: 0 0 10px;
+}
+#footer .lineTeknoloji {
+    float: right;
+    padding: 70px 20px 0 0;
+}
+#product {
+    font-family: Arial;
+    padding: 10px 0;
+}
+#full_page_detail {
+    padding: 10px;
+}
+.list {
+    font-family: Arial;
+    font-size: 12px;
+    margin: 6px;
+}
+.list a {
+    color: #666666;
+    text-decoration: underline;
+}
+.list thead td {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #E5E5E5 90%) repeat scroll 0 0 transparent;
+    color: #666666;
+    font-weight: bolder;
+    padding: 10px;
+}
+.list td {
+    padding: 10px;
+}
+#cart_finish {
+}
+#cart_finish h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    padding-left: 8px;
+}
+#cart_finish #cart.form {
+    float: left;
+    width: 440px;
+}
+#cart_finish #cart.list {
+    float: right;
+    width: 500px;
+}
+#cart.form {
+    padding: 8px;
+    width: 440px;
+}
+#cart.form .line {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 5px;
+}
+#cart.form .line label {
+    display: block;
+    float: left;
+    line-height: 24px;
+    margin-right: 6px;
+    padding-left: 6px;
+    text-align: right;
+    width: 100px;
+}
+#cart.form .line input[type="text"], #cart.form .line input[type="password"], #cart.form .line textarea, .itext {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 2px 2px 2px #EEEEEE inset;
+    color: #999999;
+    font-family: Arial;
+    font-size: 11px;
+    padding: 4px;
+    width: 160px;
+}
+#cart.form .line textarea {
+    height: 42px;
+    width: 300px;
+}
+#cart.form .line input[type="text"]:focus, #cart.form .line input[type="password"]:focus, #cart.form .line textarea:focus {
+    color: #666666;
+}
+#cart.form .line input[type="submit"], .ibutton {
+    background-color: #003366;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 12px;
+    padding: 10px 16px;
+}
+#cart.form .line input[type="submit"]:hover {
+    background-color: #333333;
+}
+.error {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+#product .product_images {
+    float: left;
+    width: 340px;
+}
+#product .product_images a.big_image {
+    border: 1px solid #DDDDDD;
+    display: block;
+}
+#product .product_images .gallery a {
+    border: 1px solid #CCCCCC;
+    display: block;
+    float: left;
+    margin: 10px 0 0 8px;
+}
+#product .product_info {
+    float: left;
+    margin: 0 0 0 15px;
+    width: 635px;
+}
+#product .product_info h1 {
+    border-bottom: 1px solid #CCCCCC;
+}
+#product .product_info p.description {
+    padding: 5px;
+}
+#product .product_info .blocks .price {
+    color: #FF6600;
+    float: right;
+    font-size: 26px;
+    font-weight: bolder;
+    line-height: 74px;
+    margin: 10px 0;
+    width: 150px;
+}
+#product .product_info .blocks .cart-button {
+    float: right;
+    margin: 10px 0;
+}
+#product .product_info .blocks .cart-button a {
+    background: none repeat scroll 0 0 #333333;
+    border-radius: 16px 16px 16px 16px;
+    color: #FFFFFF;
+    display: block;
+    font-size: 25px;
+    height: 46px;
+    line-height: 46px;
+    margin: 12px 0 0;
+    padding: 0 25px;
+}
+#product .product_info .blocks .social-buttons {
+    float: left;
+    margin: 10px 0;
+    width: 282px;
+}
+#product .product_info .blocks .social-buttons a {
+    display: block;
+    margin: 0 0 1px;
+}
+#about .links {
+    background-color: #333333;
+    border-radius: 0 5px 5px 5px;
+    float: left;
+    width: 190px;
+}
+#about .links a {
+    background-image: url("../images/icon2.png");
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    display: block;
+    height: 29px;
+    line-height: 28px;
+    padding-left: 30px;
+}
+#about .links a:hover, #about .links a.active {
+    color: #FF6600 !important;
+}
+#about .detail {
+    float: left;
+    margin: 0 0 0 10px;
+    width: 790px;
+}
+#about .detail .title {
+    padding: 0 0 5px;
+}
+#footer .logo {
+    float: left;
+    width: 200px;
+}
+#footer .links {
+    float: left;
+    margin: 10px 0 0 40px;
+    width: 500px;
+}
+#footer .links h2 {
+    color: #666666;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 10px 0 4px;
+}
+#footer .links ul li {
+    float: left;
+    list-style: disc outside none;
+    margin: 0 0 0 10px;
+    width: 155px;
+}
+#footer .links ul li a {
+    color: #333333;
+    display: block;
+    padding: 2px 0;
+}
+#footer .feed {
+    float: left;
+    margin: 20px 0 0;
+}
+#footer .feed h2 {
+    color: #666666;
+    font-family: Arial;
+    font-size: 16px;
+}
+#footer .feed span {
+    color: #333333;
+    display: block;
+    line-height: 25px;
+    margin: 0 2px 2px;
+}
+#footer .feed input[type="text"] {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 1px -1px 3px #DDDDDD inset;
+    color: #999999;
+    float: left;
+    height: 28px;
+    margin: 0;
+    padding: 0 6px;
+    width: 175px;
+}
+#footer .feed input[type="submit"] {
+    background: none repeat scroll 0 0 #333333;
+    border: 0 none;
+    border-radius: 0 5px 5px 0;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    margin: 0 0 0 -10px;
+    padding: 0 5px;
+    position: relative;
+}
+.product2 {
+	margin: 0 12px;
+}

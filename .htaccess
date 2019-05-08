@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^iletisim.html                      index.php?s=contact [L,NC]
+RewriteRule ^index.html                         index.php?s=home [L,NC]
+RewriteRule ^urun/(.*)/(.*).html        index.php?s=product&id=$1 [L,NC]
+RewriteRule ^kurumsal/(.*)/(.*).html       index.php?s=about&id=$1 [L,NC]
+RewriteRule ^sayfa/(.*)/(.*).html       index.php?s=pages&id=$1 [L,NC]
+RewriteRule ^headers        headers.php [L,NC]

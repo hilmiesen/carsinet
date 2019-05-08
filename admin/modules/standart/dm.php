@@ -1,0 +1,1 @@
+<iframe width="100%" height="680" src="../libraries/editor/ckfinder/ckfinder.html" frameborder="0"></iframe>

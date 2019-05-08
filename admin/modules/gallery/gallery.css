@@ -1,0 +1,33 @@
+#mthGallery {
+	margin: 10px;
+}
+#mthGalleryAdd {
+	border: 1px solid #EEE;
+	padding: 5px;
+	border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#mthGalleryAdd #left {
+	float: left;
+	width: 520px;
+	max-height: 300px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+#mthGalleryAdd #right {
+	float: right;
+	width: 150px;
+}
+#mthGalleryAdd #right .button-green {
+	float: right;
+}
+#mthGalleryList {
+	padding-left: 15px;
+	padding-bottom: 10px;
+}
+.fotogalleryTitle {
+	font-size: 16px;
+	padding: 5px 0px;
+}
