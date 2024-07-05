@@ -1,25 +1,25 @@
-# CarsiNET
-
-Bu ürün ADC ve WAF testlerinde kullanılmak üzere, mini bir e-ticaret sitesini baz alınarak yazılmıştır. 
-
-Admin sayfasına /admin ile erişebilirsiniz. User/Pass: admin/admin
+# About CarsiNET Project:  
   
-# DOCKER
-Docker Container olarak kullanmak için: 
+- This product was written based on a mini e-commerce site to be used in ADC and WAF tests.
+
+- You can access the admin page with /admin. User/Pass: admin/admin
+  
+# DOCKER USAGE 
 
 [https://github.com/hilmiesen/docker-carsinet]
 
-# KURULUM:
+# INSTALLATION:
 
-1. Aşağıdaki komutları çalıştırarak paketleri sisteme kurun. 
+1. Install the packages to the system by running the following commands. 
 
 apt-get update
 apt-get install apache2 php libapache2-mod-php php-sqlite3 php-curl
 a2enmod rewrite
 service apache2 restart
 
-2. /etc/apache2/sites-enabled/00-default.conf dosyasını aşağıdaki gibi ayarlayın. 
+2. Set the **/etc/apache2/sites-enabled/00-default.conf** file as follows. 
 
+```
 <VirtualHost *:80>
 	ServerAdmin webmaster@localhost
 	DocumentRoot /var/www/html
@@ -29,6 +29,6 @@ service apache2 restart
 	ErrorLog ${APACHE_LOG_DIR}/error.log
 	CustomLog ${APACHE_LOG_DIR}/access.log combined
 </VirtualHost>
-
+```
 
 **Hilmi Esen**
