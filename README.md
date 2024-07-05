@@ -4,6 +4,10 @@ Bu ürün ADC ve WAF testlerinde kullanılmak üzere, mini bir e-ticaret sitesin
 
 Admin sayfasına /admin ile erişebilirsiniz. User/Pass: admin/admin
   
+# DOCKER
+Docker Container olarak kullanmak için: 
+
+[https://github.com/hilmiesen/docker-carsinet]
 
 # KURULUM:
 
