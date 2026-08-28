@@ -45,7 +45,7 @@ include("class/class.site.php"); $mth = new mth;
 		<div class="body">
 			<form method="post" action="login.php?login=true">
 				<label class="log-lab">Kullanıcı Adı</label>
-				<input name="username" type="text" class="login-input-user" id="username" />
+				<input name="username" type="text" class="login-input-user" id="username" autofocus/>
 				<label class="log-lab">Parola</label>
 				<input name="password" type="password" class="login-input-pass" id="password" />
 				<input type="submit" name="button" id="button" value="Giriş Yap" class="button"/>
