@@ -66,6 +66,7 @@ $page = $_GET["s"];
 	<div id="wrapper">
 		<div id="site">
 			<div id="header">
+				<?php echo "<strong>SRV IP: ".$_SERVER['SERVER_ADDR']."</strong>" ?>
 				<a href="/" class="logo">
 					<img src="/<?=$site->site_logo;?>" alt="" />
 				</a>
@@ -123,7 +124,7 @@ $page = $_GET["s"];
 				$result = $mth->query("SELECT id,title FROM about ORDER BY title");
 				while($row = $mth->assoc($result)) {
 				?>
-				<li><a href="/sayfa/<?=$row["id"]?>/<?=$mth->seoUrl($row["title"])?>.html"><?=$row["title"]?></a></li>
+				<li><a href="/kurumsal/<?=$row["id"]?>/<?=$mth->seoUrl($row["title"])?>.html"><?=$row["title"]?></a></li>
 				<?php } ?>
 			</ul>
 		</div>
